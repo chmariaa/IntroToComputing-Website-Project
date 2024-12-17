@@ -43,19 +43,4 @@ document.getElementById('submitBtn').addEventListener('click', function () {
 });
 
 
-const express = require("express");
-const app = express();
-const port = 3000;
-x
-app.use(express.static(_dirname + "/docs"));
-
-app.get("/Home.html", (req, res) => {
-  res.sendFile(_dirname + "/Home.html");
-});
-
-app.listen.port(port, () => {
-  console.log('Example app listening at https://localhost:port');
-});
-
-
 
